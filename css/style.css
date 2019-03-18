@@ -1,0 +1,220 @@
+/*body*/
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color:#f4f4f4;
+}
+
+/*global*/
+.ratio{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*nav*/
+.nav{
+    background:#35424a;
+    color:#ffffff;
+    min-height:70px;
+    border-bottom:#e8491d 3px solid;
+}
+
+.nav-wraffer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    align-items: center;
+}
+
+.nav-link ul{
+    display: flex;
+    list-style: none;
+    font-size: 25px;
+}
+
+.logo h1{
+    font-size: 40px;
+}
+
+span{
+    color: #e8491d;
+}
+
+header li{
+    margin: 0px 10px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+header .present a{
+    color: #e8491d;
+    text-decoration: underline;
+}
+
+header a:hover{
+    color: aqua;
+    font-weight: bold;
+}
+
+/*hero*/
+.hero{
+    min-height: 400px;
+    background:url("../img/showcase.jpg") no-repeat 0 -400px;
+    text-align: center;
+    color: white;
+}
+.hero-content{
+    overflow: hidden;
+}
+.hero h1{
+    margin-top:100px;
+    font-size:55px;
+    margin-bottom:10px;
+}
+
+.hero p{
+    font-size: 20px;
+}
+
+/*newsletter*/
+.news{
+    padding:8px;
+    background: #35424a;
+    color: white;
+}
+
+.news h1{
+    float: left;
+}
+
+.news form{
+    float: right;
+    margin-top:25px;
+}
+
+.news input[type="email"]{
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+
+.news button[type="submit"]{
+    height: 38px;
+    background: #e8491d;
+    border: 0px;
+	padding: 0px 20px;
+    color: white;
+    font-weight: bold;
+}
+
+/*about*/
+.about-head{
+    margin-top: 10px;
+}
+
+.highlight{
+    background-color: #35424a;
+    color: white;
+    padding: 15px;
+}
+
+.highlight h2{
+    margin: 0px;
+}
+
+.highlight h4{
+    margin: 5px;
+}
+
+.about-content h2{
+    color: #e8491d
+}
+
+.about-content{
+    float: left;
+    width: 65%;
+}
+
+.about-content p{
+    font-size: 20px;
+}
+
+.sidebar{
+    float: right;
+    width: 30%;
+    padding: 10px;
+    font-size: 20px;
+}
+/*service*/
+.pricing{
+
+}
+
+.service-head{
+    background-color: #f4f4f4;
+}
+.service-topic{
+    background-color: #e6e6e6;
+    margin: 5px;
+    padding:15px 20px;
+    border: #35424a 1px solid;
+}
+
+.service-content{
+    float: left;
+    width: 65%;
+}
+
+.service-head button[type="submit"]{
+	padding: 4px;
+    height: 35px;
+    width: 80px;
+    background: #e8491d;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.service-head input{
+	padding: 3px;
+	height: 25px;
+	width: 250px;
+}
+
+.service-head input[type="message"]{
+	padding: 5px;
+	height: 50px;
+	width: 250px;
+}
+
+/*feater*/
+.feater{
+    margin-top: 20px;
+}
+
+.content{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+.content img{
+    width: 90px;
+}
+
+/*footer*/
+.footer{
+    background-color: #e8491d;
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+}
