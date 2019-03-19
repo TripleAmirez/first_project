@@ -1,1 +1,1 @@
-# triplea.github.io
+# tripleamirez.github.io
